@@ -1,31 +1,12 @@
-import { Button } from 'antd';
+import Main from './components/Main';
+import Menu from './components/Menu'
 
-const App = () => {
-  
-  const onClickHome = () => {
-    console.log("Indo para a página inicial")
-  }
-
-  const onClickEquipe = () => {
-    console.log("Indo para a página da equipe")
-  }
-
-  return (
-    <div>
-    
-      <h1>Teste</h1>
-      <nav>
-        <Button type="link">Home</Button>
-        <Button type="link">Equipe</Button>
-        <Button type="link">Sobre Nós</Button>
-        <Button type="link">Contato</Button>
-      </nav>
-      <main>
-        <h2>Listagem</h2>
-        <Button>"Cadastrar item"</Button>
-      </main>
-    </div>
-)
-  }
+const App = () => (
+  <div>
+    {/* <h1>Teste</h1> */}
+    <Menu />
+    <Main />
+  </div>
+);
 
 export default App;
