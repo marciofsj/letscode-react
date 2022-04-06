@@ -5,7 +5,7 @@ export const Container = styled.article`
     display: block;
     background-color: #231f3a;
     color: #fff;
-    height: 500px;
+    height: 505px;
     width: 300px;
     padding: 5px;
 `
