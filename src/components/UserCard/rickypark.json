@@ -1,0 +1,10 @@
+{
+    "category":"PRO",
+    "photo":"https://miro.medium.com/max/1400/1*UpK-UrHOeshQf8gxcRnjpg.jpeg",
+    "name":"Ricky Park",
+    "state":"NEW YORK",
+    "carrer":"User interface designer and front-end developer",
+    "skills":[
+        "UI/UX", "Front End Developer", "HTML", "CSS", "JavaScript", "React", "Node"
+    ]
+}

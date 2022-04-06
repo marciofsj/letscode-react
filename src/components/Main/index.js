@@ -7,6 +7,7 @@ const Main = () => (
   <Container>
     <h2>Listagem</h2>
     <Product />
+    <UserCard/>
   </Container>
 )
 
