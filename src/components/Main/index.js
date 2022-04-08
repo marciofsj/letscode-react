@@ -1,12 +1,12 @@
-import { Button } from "antd"
+import airmax from "./airmax.json"
 import Product from "../Product"
 import UserCard from "../UserCard"
-import { Container, StyledButton, StyledUserCard } from './styles'
+import { Container } from './styles'
 
 const Main = () => (
   <Container>
-    <h2>Listagem</h2>
-    <Product />
+    <Product product={airmax}/>
+    <br/><br/>
     <UserCard/>
   </Container>
 )

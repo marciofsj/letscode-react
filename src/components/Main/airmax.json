@@ -5,7 +5,7 @@
     "model": {
       "line": "Airmax",
       "brand": "Nike",
-      "description": "Man Black Sneakers",
+      "description": "Men Black Sneakers",
       "sizes": [7, 8, 9, 10, 11],
       "colors": [
         { "id": "yellow", "hex": "#fdc60f" },

@@ -3,7 +3,6 @@ import {Button, Buttonsection, Carrer, Category, Container, Infosection, Name, P
 
 const UserCard = () => (
     <div>
-        <h2>User Name</h2>
         <Container>
             <Category>{rickypark.category}</Category>
             <Photo>
