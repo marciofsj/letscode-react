@@ -1,12 +1,17 @@
-import airmax from "./airmax.json"
+import products from './products.json'
 import Product from "../Product"
-import UserCard from "../UserCard"
 import { Container } from './styles'
+import UserCard from '../UserCard'
 
 const Main = () => (
   <Container>
-    <Product product={airmax}/>
-    <br/><br/>
+    <h2>Listagem</h2>
+    {
+      products.map(product =>
+        <Product key={product.id} product={product} />
+      )
+    }
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <UserCard/>
   </Container>
 )

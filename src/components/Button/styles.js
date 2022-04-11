@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 export const StyledButton = styled.button`
@@ -17,4 +16,9 @@ export const StyledButton = styled.button`
   & svg {
     margin-right: 10px;
   }
+  ${({ selected }) => selected && `
+    border-radius: 5px;
+    background: rgba(255,255,255,.2);
+    font-weight: 800;
+  `}
 `
